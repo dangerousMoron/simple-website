@@ -59,6 +59,9 @@ function addContrastControl() {
 }
 
 function addInvertedControl() {
+  var el = document.getElementsByTagName("html")[0];
+  el.classList[classMethods[1]]("inverted"); //stupid kludge to make it dark mode by default
+
   someControl("invmode", [stringArray[2], stringArray[3]], "inverted");
 }
 
