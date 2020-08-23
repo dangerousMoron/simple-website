@@ -64,7 +64,6 @@ function addInvertedControl() {
 
   someControl("invmode", [stringArray[2], stringArray[3]], "inverted");
 }
-
 // Go back to previous page
 function goBack() {
   window.history.back();
